@@ -27,6 +27,7 @@ html, body {
 #wrapper {
     min-height:100%;
     position:relative;
+    perspective: 800px;
 }
 #header {
     background:#ededed;
@@ -34,6 +35,7 @@ html, body {
 }
 #content {
     padding-bottom:100px; /* Height of the footer element */
+    transform: rotateY( 70deg );
 }
 #footer {
     background:#ffab62;
